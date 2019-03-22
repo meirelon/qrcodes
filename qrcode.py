@@ -3,7 +3,7 @@ import pyqrcode
 
 def qrcode(link, scale=8):
     url=pyqrcode.creat(link)
-    url.png('qrcode.png', scale=scale)
+    url.png('qrcodes/qrcode.png', scale=scale)
 
 def main(argv=None):
     parser = argparse.ArgumentParser()
